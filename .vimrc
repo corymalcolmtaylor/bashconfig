@@ -15,7 +15,11 @@ set number
 set autoindent
 set smartindent
 "set et
-set guifont=Bitstream\ Vera\ Sans\ Mono\ 14
+if has("gui_macvim")
+	set guifont=Bitstream\ Vera\ Sans\ Mono:h16
+else
+	set guifont=Bitstream\ Vera\ Sans\ Mono\ 14
+endif
 colorscheme slate
 syntax enable
 set nocompatible
