@@ -15,7 +15,7 @@ set number
 set autoindent
 set smartindent
 "set et
-set guifont=Menlo\ Regular:h18
+set guifont=Bitstream\ Vera\ Sans\ Mono\ 14
 colorscheme slate
 syntax enable
 set nocompatible
