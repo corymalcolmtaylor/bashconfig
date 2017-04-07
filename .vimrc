@@ -20,7 +20,7 @@ if has("gui_macvim")
 else
 	set guifont=Bitstream\ Vera\ Sans\ Mono\ 14
 endif
-colorscheme slate
+colorscheme zenburn
 syntax enable
 set nocompatible
 fixdel
