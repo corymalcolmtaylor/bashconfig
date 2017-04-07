@@ -24,5 +24,5 @@ colorscheme zenburn
 syntax enable
 set nocompatible
 fixdel
-set laststatus=2
-set statusline+=%F
+set laststatus=1
+"set statusline+=%F
