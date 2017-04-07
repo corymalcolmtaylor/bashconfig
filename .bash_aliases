@@ -1,4 +1,4 @@
-alias l='ls -lrta'
+alias l='ls -Flrta'
 alias cp='cp -i'
 
 alias ga='git add .'
@@ -20,6 +20,7 @@ alias cdan='cd ~/Dev/AndroidStudioProjects'
 
 alias adev='adb devices'
 alias aem='adb -s emulator-5554 shell'
+alias adbres='adb kill-server && adb start-server'
 
 # Run atom without gpu acceleration
 function runAtom {

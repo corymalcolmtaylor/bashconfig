@@ -36,5 +36,5 @@ fi
 
 
 export PATH=$PATH
-
+export CLICOLOR=1
 
