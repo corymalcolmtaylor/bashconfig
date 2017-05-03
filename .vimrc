@@ -26,3 +26,4 @@ set nocompatible
 fixdel
 set laststatus=1
 "set statusline+=%F
+highlight MatchParen ctermbg=blue guibg=lightblue
