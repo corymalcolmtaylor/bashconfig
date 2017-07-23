@@ -9,9 +9,9 @@ case $TERM in
 	xterm*)
 	if [ $(id -u) -eq 0 ];
 	then
-		PS1="\[\033]0;\u@\h: \w\007\]\e[0;31m[\u@\h]\$\e[m "
+		PS1='\[\e[0;31m\][\u@\h]$ \[\e[0m\]' 
 	else
-		PS1="\[\033]0;\u@\h: \w\007\]\e[0;36m[\u@\h]\$\e[m "
+        	PS1='\[\e[0;31m\][\u@\h]$ \[\e[0m\]' 
 	fi
 	;;
 	*)
@@ -34,7 +34,7 @@ if [ $LOS = "Darwin" ]; then
 	PATH="/usr/local/bin:$PATH"
 fi
 
-
+export PS1=$PS1
 export PATH=$PATH
 export CLICOLOR=1
 

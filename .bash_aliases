@@ -39,6 +39,7 @@ function runAtom {
     atom $@ --disable-gpu
 }
 alias a=runAtom
+alias c='cat ' 
 alias n='nano ' 
 alias p='python3 ' 
 LOS=$(uname);
