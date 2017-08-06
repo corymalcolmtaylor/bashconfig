@@ -7,6 +7,7 @@ alias gpl='git pull'
 #to pull from a forked repos paent repo 
 alias gplu='git pull upstream master'
 alias gps='git push'
+alias gd='git diff'
 alias gs='git status'
 alias gf='git fetch --all; git reset --hard origin/master'
 alias gnb='git checkout -b '
