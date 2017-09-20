@@ -34,7 +34,7 @@ alias cdfst='cd ~/Dev/FirebaseProjects/StrengthStandards'
 alias adev='adb devices'
 alias aem='adb -s emulator-5554 shell'
 alias adbres='adb kill-server && adb start-server'
-
+alias nps='killall -9 node'
 # Run atom without gpu acceleration
 function runAtom {
     atom $@ --disable-gpu
