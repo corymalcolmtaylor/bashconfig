@@ -17,6 +17,8 @@ set smartindent
 "set et
 if has("gui_macvim")
 	set guifont=Bitstream\ Vera\ Sans\ Mono:h16
+elseif has("gui_win32")
+    set guifont=Consolas:h14:cANSI
 else
 	set guifont=Bitstream\ Vera\ Sans\ Mono\ 14
 endif

@@ -39,7 +39,6 @@ if [ $LOS = "Darwin" ]; then
 	PATH="/Users/$USER/Dev/npm_Global/bin:$PATH"
 	PATH="/usr/local/bin:$PATH"
 fi
-
 export PS1=$PS1
 export PATH=$PATH
 export CLICOLOR=1
