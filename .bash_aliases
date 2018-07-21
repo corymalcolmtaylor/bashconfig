@@ -50,4 +50,6 @@ then
 else
 	alias v='gvim ';
 fi
+alias jslint='jslint --edition=latest '
+alias vc='code '
 

@@ -30,6 +30,12 @@ fi
 LOS=$(uname);
 if [ $LOS = "Darwin" ]; then
 	PATH=".:/Users/$USER/Library/Android/sdk/platform-tools:$PATH"
+	PATH=".:$PATH:/Volumes/macex/androidSDK/platform-tools"
+ 	PATH=".:$PATH:/Volumes/macex/androidSDK"
+ 	PATH="$PATH:/Users/$USER/Dev/npm_Global/bin"
+ 	PATH="$PATH:/usr/local/bin:/usr/local/mysql/bin"
+ 	PATH="$PATH:/usr/local/Cellar/mongodb/3.6.3/bin"
+ 	PATH="$PATH:/Users/$USER/dev/flutter/bin"
 	PATH="/Users/$USER/Dev/npm_Global/bin:$PATH"
 	PATH="/usr/local/bin:$PATH"
 fi
