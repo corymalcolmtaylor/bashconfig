@@ -15,7 +15,7 @@ case $TERM in
 	fi
 	;;
 	*)
-		PS1="\u@\h\$ "
+	PS1="\u@\h\$ "
 esac
 
 # Alias definitions.
