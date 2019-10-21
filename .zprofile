@@ -11,7 +11,7 @@ case $TERM in
 	then
 		PS1='\[\e[0;31m\][\u@\h]$ \[\e[0m\]' 
 	else
-      	PS1='\[\e[0;36m\][\u@\h]$ \[\e[0m\]' 
+   	PS1='\[\e[0;36m\][\u@\h]$ \[\e[0m\]' 
 	fi
 	;;
 	*)
@@ -45,6 +45,7 @@ if [ $LOS = "Darwin" ]; then
   export ANDROID_AVD_HOME='/Volumes/macex/androidSDK/.android/avd'
   DEVHOME='/Volumes/macex/Dev'
   export DEVHOME=$DEVHOME
+	PROMPT="%F{cyan}[%n@%m]%f%# "
 fi
 export DEVHOME=$DEVHOME
 export PS1=$PS1
